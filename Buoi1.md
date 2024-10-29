@@ -1,13 +1,13 @@
-## Preparation
+## BUỔI 1: WELCOME TO JAVA
 
-### Giới thiệu về Java
+### I. Giới thiệu về Java
 
 1. Ngôn ngữ Java là gì?
-    - Java là một trong những ngôn ngữ lập trình hướng đối tượng, thuộc top phổ biến nhất trên thế giới.
+    - Java là một trong những ngôn ngữ lập trình hướng đối tượng được thiết kế để chạy trên nhiều nền tảng khác nhau mà không cần phải chỉnh sửa mã nguồn.
     - Ngôn ngữ Java được sử dụng phổ biến trong phát triển phần mềm, trang web, game hay ứng dụng trên các thiết bị di động.
-2. Lịch sử ra đời
-    - Java được khởi đầu bởi James Gosling và bạn đồng nghiệp ở Sun MicroSystem năm 1991.
-    - Mục đích ra đời: **viết phần mềm cho các sản phẩm gia dụng (tên là Oak)**
+    - Nó được phát triển bởi Sun Microsystems và hiện tại thuộc về Oracle.
+2. Lý do ra đời
+    - Java ra đời nhằm giải quyết vấn đề tương thích đa nền tảng và cung cấp một môi trường phát triển đơn giản, bảo mật, và mạnh mẽ cho các ứng dụng mạng.
 3. Cách hoạt động
     - Được thiết kế dựa trên tiêu chí: ***“Write Once, Run Anywhere”***  (mã nguồn Java có thể chạy trên mọi nền tảng có hỗ trợ Java Virtual Machine (**JVM**) ⇒ NNLT đa nền tảng
     - Khi ta viết một chương trình Java, quy trình hoạt động có thể chia làm 3 bước chính:
@@ -15,19 +15,10 @@
         2. **Biên dịch mã nguồn**: Được biên dịch bởi Java Compiler thành ***bytecode*** (tệp `.class`)
             - ***bytecode:*** là mã trung gian mà trình biên dịch Java tạo ra sau khi biên dịch mã nguồn, có thể chạy trên bất kỳ hệ điều hành nào có **JVM**
         3. **Chạy chương trình**: JVM dịch bytecode này thành mã máy (machine code) để hệ điều hành và phần cứng cụ thể có thể hiểu và thực thi chương trình.
-4. Cấu trúc một chương trình Java
-    
-    
-    - Thường chia làm 6 phần:
-        - **package (Gói)**: mô tả không gian tên có chứa các lớp của Java, sử dụng ký tự thường và dấu chấm để định nghĩa tên.
-        - **import**: được sử dụng nhằm xác định các class / package được sử dụng trong lớp này.
-        - **class**:  Được dùng để định nghĩa lớp của Java. Nó đứng trước khai báo tên lớp của Java
-        - **Variables (biến/trường)**: Cũng có 1 số tài liệu gọi là thuộc tính trực thuộc lớp. Nó chứa thông tin cụ thể liên quan tới các đối tượng là thể hiện của lớp.
-        - **Methods (Phương thức/hàm chứa các hđ thực thi)**: nội dung của phương thức chính là các đoạn mã thực thi của chính phương thức này.
-        - **Constructors:** Là hàm khởi tạo của đối tượng.
-    
-    ```java
-    package <package_name>;
+
+### II. Cấu trúc một chương trình Java
+    ```
+    package <package_name>; 
     
     import <other_package>;
     
@@ -40,7 +31,7 @@
     }
     ```
     
-5. Syntax cơ bản trong code
+6. Syntax cơ bản trong code
     - Khai báo biến nguyên thủy: `DataType varName [ = value] [, varName2] [ = value2]...;`
         - **DataType**: kiểu dữ liệu của biến
         - **varName**: Tên biến
