@@ -17,7 +17,7 @@
         3. **Chạy chương trình**: JVM dịch bytecode này thành mã máy (machine code) để hệ điều hành và phần cứng cụ thể có thể hiểu và thực thi chương trình.
 
 ### II. Cấu trúc một chương trình Java
-    ```
+    ```java
     package <package_name>; 
     
     import <other_package>;
